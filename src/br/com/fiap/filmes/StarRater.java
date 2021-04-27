@@ -1,3 +1,4 @@
+package br.com.fiap.filmes;
 //package app;
 import java.awt.Dimension;
 import java.awt.Graphics;
@@ -28,7 +29,10 @@ import javax.swing.JPanel;
  */
 public class StarRater extends JPanel {
 
-  /** The listener. */
+
+	private static final long serialVersionUID = 1L;
+	
+/** The listener. */
   public static interface StarListener {
     
     /**
